@@ -36,15 +36,10 @@ public class Algebra {
         System.out.println("  Cos");
         System.out.println("  Tan");
         System.out.println("  Log Equation");
-        System.out.println("  Right triangle (Find the side of any right triangle (Pythogrean Theorem))");
-        System.out.println("  Basic Trig Triangle (Find the value of the missing side using Sine Law)");
-        System.out.println("  Advanced Trig Triangle (Find the value of the missing side of ANY TRIANGLE using cosine or sine law)");
-
-        System.out.println();
         System.out.println("Type Exit if you want the program to terminate");
         System.out.println("Type Help to show this menu again");
         System.out.println();
-        System.out.println("\t\t\tDeveloped By Neel 2021 :DD");
+        System.out.println("\t\t\t\t\t\t\t\t\tDeveloped By Neel 2021 :DD");
     }
 
     /**
