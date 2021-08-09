@@ -37,6 +37,7 @@ public class Algebra {
         System.out.println("  Cos");
         System.out.println("  Tan");
         System.out.println("  Log Equation");
+        System.out.println("  Type clear to clear screen");
         System.out.println("Type Exit if you want the program to terminate");
         System.out.println("Type Help to show this menu again");
         System.out.println();
@@ -197,7 +198,9 @@ public class Algebra {
                 double answer = in.nextDouble();
                 functions.logEquation(base, argument, answer);
 
-            } else {
+            } else if(command.equalsIgnoreCase("clear")) {
+                System.out.print(String.format("\033[2J"));
+            }else {
                 System.out.println("Whoops! Unknown Command :(");
                 System.out.println("Enter in the operation that you want to use.");
                 showMenu();
