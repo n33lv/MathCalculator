@@ -21,6 +21,7 @@ public class Algebra {
 
     public void showMenu() {
         System.out.println();
+        System.out.print(String.format("\033[2J"));
         System.out.println("What type of problem would you like to solve?");
         System.out.println("Functions you can use");
         System.out.println("  Add");
